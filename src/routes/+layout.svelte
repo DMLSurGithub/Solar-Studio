@@ -17,7 +17,7 @@
     	<img src={serveurIcone} alt="Serveur" />
   	</div>
   	<div style="display: flex; align-items: center;">
-    	<p style="text-align: center;">By <a href="https://github.com/DMLSurGithub" target="_blank">DML</a> for Wizards Network</p>
+    	<p class="bydml" style="text-align: center;">By <a href="https://github.com/DMLSurGithub" target="_blank">DML</a> for Wizards Network</p>
   	</div>
   	<div style="display: flex; align-items: center;">
     	<a href="https://discord.gg/wizardsmc" target="_blank">
@@ -60,8 +60,12 @@
 	}
 
 	footer img {
-		width: 40px;
+		width: 30px;
 		margin: 0px 15px
+	}
+
+	.bydml {
+		font-size: 12px;
 	}
 
 	@media (min-width: 480px) {
