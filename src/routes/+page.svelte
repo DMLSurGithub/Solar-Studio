@@ -1,6 +1,7 @@
 <script>
 	import './styles.css';
 	import img1 from '../lib/images/img1.png'
+	import serveurIcone from '../lib/images/icon.png';
 	import trailer from '../lib/images/trailer.mp4'
 </script>
 
@@ -12,15 +13,10 @@
 <section>
 	<div class="img-container">
 		<img class="img1" src={img1} alt="img1"/>
-		<div class="box box-left">
-			<h2>DISCORD</h2>
-			<p>250 Membres</p>
+		<div class="center-icon">
+			<img src={serveurIcone} alt="icone" />
 		</div>
-		<div class="box box-right">
-			<h2>PLAY.WIZARDS-NETWORK.FR</h2>
-			<p>250 Membres</p>
-		</div>
-	</div>	  
+	</div>		  
 	<h1>Bienvenue sur <span class="wizards">Wizards</span> <span class="network">Network</span></h1>
 	<div style="display:flex; flex-direction:row;">
 		<div style="flex:1;">
@@ -34,7 +30,10 @@
 				Enfin, notre communauté est chaleureuse et accueillante, et nous avons des membres du personnel compétents pour t'aider en cas de besoin. Nous organisons également des événements réguliers pour que tu puisses t'amuser avec les autres joueurs.<br><br>
 				Alors, <a href="https://discord.gg/wizardsmc" target="_blank">rejoins-nous</a> dès maintenant sur Wizards Network et découvre un monde magique et passionnant qui t'attend !</p>
 		  </div>
-	  </div>	  
+	  </div>
+	  <h1>Connexion</h1>
+	  <h1>Discord</h1>	 
+	  <h1>Actualités</h1>
 </section>
 
 <style>
@@ -58,39 +57,17 @@
 		height: 36vw;
 	}
 
-	.box {
-		position: absolute;
-		bottom: 0;
-		width: 240px;
-		height: 70px;
-		border-radius: 0 0 20px 20px;
-	}
+	.center-icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
-	.box-left {
-		left: 0;
-		margin-left: 40px;
-		margin-bottom: 35px;
-		padding: 10px;
-		background: linear-gradient(210deg, #5453b0aa, #161466aa);
-        font-size: 14px;
-        border-radius: 20px;
-        color: rgb(255, 255, 255);
-	}
+.center-icon img {
+	width: 250px;
+}
 
-	.box-right {
-		right: 0;
-		margin-right: 40px;
-		margin-bottom: 35px;
-		padding: 10px;
-		background: linear-gradient(-210deg, #7473e8aa, #26249caa);
-        font-size: 14px;
-        border-radius: 20px;
-        color: rgb(255, 255, 255);
-	}
-
-	h2 {
-		font-size: 16px;
-	}
 	
 	h1 {
 		font-size: 30px;
