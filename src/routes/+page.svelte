@@ -7,7 +7,7 @@
 
 <svelte:head>
 	<title>Wizards Network - Accueil</title>
-	<meta name="description" content="Site officiel du serveur Minecraft Bedrock, Wizards Network, celui-ci est sur le thème High Fantasy et comporte 2 modes de jeux, un PvP Faction et un Practice" />
+	<meta name="description" content="Site officiel du serveur Minecraft Bedrock, Wizards Network, celui-ci est sur le thème High Fantasy et comporte deux modes de jeux, un PvP Faction et un Practice" />
 	<meta content="#5553d7" data-react-helmet="true" name="theme-color"/>
 	<meta content="/lib/images/img1.png" property="og:image"/>
 </svelte:head>
@@ -22,7 +22,8 @@
 	<h1>Bienvenue sur <span class="wizards">Wizards</span> <span class="network">Network</span></h1>
 	<div style="display:flex; flex-direction:row;">
 		<div style="flex:1;">
-		  <video src={trailer} width="640" height="540" controls></video>
+		  <video src={trailer} width="640" height="540" controls>
+			<track kind="captions"></video>
 		</div>
 		<div class="presentation" style="flex:1;">
 			<p>Bonjour et bienvenue sur le serveur Minecraft Bedrock édition de Wizards Network, je suis Luna, et je suis ravie de te présenter notre univers de jeu passionnant !<br><br>
