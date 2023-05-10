@@ -21,7 +21,7 @@
 			<p>250 Membres</p>
 		</div>
 	</div>	  
-	<h1>Bienvenue sur Wizards Network</h1>
+	<h1>Bienvenue sur <span class="wizards">Wizards</span> <span class="network">Network</span></h1>
 	<div style="display:flex; flex-direction:row;">
 		<div style="flex:1;">
 		  <video src={trailer} width="640" height="540" controls></video>
@@ -94,6 +94,16 @@
 	
 	h1 {
 		font-size: 30px;
+		font-family: 'Outfit', 'sans serif';
+		font-weight: bold;
+	}
+
+	.wizards {
+		color: #5553d7;
+	}
+
+	.network {
+		color: #f0b810;
 	}
 
 	.presentation {
