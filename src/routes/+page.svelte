@@ -7,7 +7,9 @@
 
 <svelte:head>
 	<title>Wizards Network - Accueil</title>
-	<meta name="description" content="Site officiel de Wizards Network" />
+	<meta name="description" content="Site officiel du serveur Minecraft Bedrock, Wizards Network, celui-ci est sur le thème High Fantasy et comporte 2 modes de jeux, un PvP Faction et un Practice" />
+	<meta content="#5553d7" data-react-helmet="true" name="theme-color"/>
+	<meta content="/lib/images/img1.png" property="og:image"/>
 </svelte:head>
 
 <section>
