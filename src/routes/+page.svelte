@@ -20,12 +20,11 @@
 		</div>
 	</div>		  
 	<h1>Bienvenue sur <span class="wizards">Wizards</span> <span class="network">Network</span></h1>
-	<div style="display:flex; flex-direction:row;">
+	<div style="display:flex; flex-direction:row; align-items: center;">
 		<div style="flex:1;">
-			<video src={trailer} width="640" height="540" controls>
+			<video src={trailer} width="640" height="390" controls>
 				<track kind="captions">
-			  </video>
-			  
+			</video>	  
 		</div>
 		<div class="presentation" style="flex:1;">
 			<p>Bonjour et bienvenue sur le serveur Minecraft Bedrock édition de Wizards Network, je suis Luna, et je suis ravie de te présenter notre univers de jeu passionnant !<br><br>

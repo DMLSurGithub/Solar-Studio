@@ -83,6 +83,7 @@
   
   nav img {
     width: 40px;
+    margin-bottom: 8px;
   }
 		
 	.right {
@@ -90,6 +91,7 @@
 	  right: 0;
 	  background: linear-gradient(45deg, #f1bc2c, #f18f2c);
       font-size: 15px;
+    margin-bottom: 10px;
       border-radius: 20px;
       padding: 10px 20px;
 	  margin-right: 10px;

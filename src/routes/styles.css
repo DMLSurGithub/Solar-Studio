@@ -17,6 +17,7 @@
 	color: var(--color-text);
 }
 
+  
 body {
 	min-height: 100vh;
 	margin: 0;
@@ -24,12 +25,8 @@ body {
 	background-attachment: fixed;
 	background-color: var(--color-bg-1);
 	background-size: 100vw 100vh;
-	background-image: radial-gradient(
-			50% 50% at 50% 50%,
-			rgba(18, 10, 27, 0.75) 0%,
-			rgba(18, 10, 27, 0.2) 100%
-		),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+	background: #2b1e39; /* violet foncé */
+	background: linear-gradient(to bottom, #170f2c 0%, #000000 100%);
 }
 
 h1,
