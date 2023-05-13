@@ -2,6 +2,7 @@
 	import './styles.css';
 	import img1 from '../lib/images/img1.png';
 	import serveurIcone from '../lib/images/icon.png';
+	import serveurLogo from '../lib/images/logo.png';
 	import trailer from '../lib/images/trailer.mp4';
 </script>
 
@@ -15,8 +16,8 @@
 <section>
 	<div class="img-container">
 		<img class="img1" src={img1} alt="img1"/>
-		<div class="center-icon">
-			<img src={serveurIcone} alt="icone" />
+		<div class="center-logo">
+			<img src={serveurLogo} alt="logo" />
 		</div>
 	</div>		  
 	<h1>Bienvenue sur <span class="wizards">Wizards</span> <span class="network">Network</span></h1>
@@ -38,29 +39,29 @@
 	  <h1>Connexion</h1>
 
 	  <h1>Discord</h1>
-	  <div id="discordInvite" style="width: 400px;">
-		<h5 id="introText" class="noselect loadHidden" style="display: block;">Rejoins notre Discord !</h5>
-		<div id="discordData">
+		<div id="discordInvite" style="width: 400px;">
+		  <h5 id="introText" class="noselect loadHidden" style="display: block;">Rejoins notre Discord !</h5>
+		  <div id="discordData">
 			<div id="serverImg" class="discordLink loadHidden" style="background: url(&quot;https://i.ibb.co/LZyHc54/partner1.png&quot;) 50% 50% / 100% 100% repeat scroll padding-box padding-box rgb(54, 57, 63); display: block;">
 			</div>
 			<div id="discordInfo">
-				<div id="serverNameBox" class="discordLink">
-					<span class="noselect" id="serverName">Wizards Network</span>
+			  <div id="serverNameBox" class="discordLink">
+				<span class="noselect" id="serverName">Wizards Network</span>
+			  </div>
+			  <div id="status" class="loadHidden" style="display: block;">
+				<div id="statusIndicators" class="noselect">
+				  <i id="onlineInd"></i>
+				  <span id="numOnline">76 En ligne</span>
+				  <i id="offlineInd"></i>
+				  <span id="numTotal">259 Membres</span>
 				</div>
-				<div id="status" class="loadHidden" style="display: block;">
-					<div id="statusIndicators" class="noselect">
-						<i id="onlineInd"></i>
-						<span id="numOnline">76 En ligne</span>
-						<i id="offlineInd"></i>
-						<span id="numTotal">259 Membres</span>
-					</div>
-				</div>
+			  </div>
 			</div>
 			<button type="button" class="discordLink" id="callToAction">
-				<div id="buttonText" class="noselect"><a href="https://discord.gg/wizardsmc" target="_blank">Rejoindre</a></div>
+			  <div id="buttonText" class="noselect"><a href="https://discord.gg/wizardsmc" target="_blank">Rejoindre</a></div>
 			</button>
+		  </div>
 		</div>
-	</div>
 
 	  <h1>Actualités</h1>
 </section>
@@ -83,18 +84,18 @@
 	.img1 {
 		filter: blur(2px) brightness(75%);
 		width: 100vw;
-		height: 36vw;
+		height: 42vw;
 	}
 
-	.center-icon {
+	.center-logo {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
-.center-icon img {
-	width: 250px;
+.center-logo img {
+	width: 750px;
 }
 
 	
@@ -130,7 +131,7 @@
     text-align: left;
     box-sizing: border-box;
     color: #fff;
-    background: rgba(47,49,54,.6);
+    background: #2b2d31;
     border-radius: 15px;
     border: 1px solid rgba(47,49,54,.9);
     border-collapse: separate;
