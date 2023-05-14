@@ -1,0 +1,22 @@
+h1 {
+  font-size: 30px;
+  font-family: 'Outfit', 'sans serif';
+  font-weight: bold;
+}
+
+.wizards {
+  color: #5553d7;
+}
+
+.network {
+  color: #f0b810;
+}
+
+.presentation {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+p {
+  font-size: 12px;
+}

@@ -3,9 +3,9 @@
 	import serveurIcone from '../lib/images/icon.png';
 </script>
 
-<head>
+<svelte:head>
   <link rel="stylesheet" href="./Header.css">
-</head>
+</svelte:head>
 
 <header>
   <header>

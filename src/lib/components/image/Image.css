@@ -1,0 +1,22 @@
+.img-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.img1 {
+  filter: blur(2px) brightness(75%);
+  width: 100vw;
+  height: 42vw;
+}
+
+.center-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-logo img {
+  width: 750px;
+}
