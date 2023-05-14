@@ -1,10 +1,6 @@
 <script>
-	import trailer from '/static/images/trailer.mp4';
+	import trailer from '../../images/trailer.mp4';
 </script>
-
-<svelte:head>
-  <link rel="stylesheet" href="./Bienvenue.css">
-</svelte:head>
 
 <bienvenue>
   <h1>Bienvenue sur <span class="wizards">Wizards</span> <span class="network">Network</span></h1>
@@ -19,3 +15,7 @@
 		</div>
 	</div>
 </bienvenue>
+
+<style>
+	@import './Bienvenue.css';
+</style>

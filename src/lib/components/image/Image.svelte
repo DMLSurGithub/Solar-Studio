@@ -1,11 +1,7 @@
 <script>
-  import img1 from '/static/images/img1.png';
-	import serveurLogo from '/static/images/logo.png';
+  import img1 from '../../images/img1.png';
+	import serveurLogo from '../../images/logo.png';
 </script>
-
-<svelte:head>
-  <link rel="stylesheet" href="./Image.css">
-</svelte:head>
 
 <image>
   <div class="img-container">
@@ -15,3 +11,7 @@
     </div>
   </div>
 </image>
+
+<style>
+	@import './Image.css';
+</style>

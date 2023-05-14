@@ -4,7 +4,6 @@
 	import Bienvenue from '../lib/components/bienvenue/Bienvenue.svelte';
 	import Discord from '../lib/components/discord/Discord.svelte';
 	import Footer from '../lib/components/footer/Footer.svelte';
-	import '../styles.css';
 </script>
 
 <svelte:head>
@@ -23,3 +22,7 @@
 <Discord />
 
 <Footer />
+
+<style>
+	@import '../styles.css';
+</style>

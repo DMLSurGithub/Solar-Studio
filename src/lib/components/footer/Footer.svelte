@@ -1,11 +1,7 @@
 <script>
-	import serveurIcone from '/static/images/icon.png';
-	import discordIcone from '/static/images/discord.png'
+	import serveurIcone from '../../images/icon.png';
+	import discordIcone from '../../images/discord.png'
 </script>
-
-<svelte:head>
-  <link rel="stylesheet" href="./Footer.css">
-</svelte:head>
 
 <footer style="display: flex; justify-content: space-between; align-items: center;">
   <div style="display: flex; align-items: center;">
@@ -20,3 +16,7 @@
 		</a>
   </div>
 </footer>
+
+<style>
+	@import './Footer.css';
+</style>

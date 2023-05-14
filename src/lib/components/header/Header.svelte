@@ -1,11 +1,7 @@
 <script>
 	import { page } from '$app/stores';
-	import serveurIcone from '/static/images/icon.png';
+	import serveurIcone from '../../images/icon.png';
 </script>
-
-<svelte:head>
-  <link rel="stylesheet" href="./Header.css">
-</svelte:head>
 
 <header>
   <header>
@@ -35,3 +31,7 @@
 	  </nav>
   </header>
 </header>
+
+<style>
+	@import './Header.css';
+</style>

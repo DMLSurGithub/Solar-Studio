@@ -1,7 +1,3 @@
-<svelte:head>
-  <link rel="stylesheet" href="./Discord.css">
-</svelte:head>
-
 <discord>
   <h1>Discord</h1>
 		<div id="discordInvite" style="width: 400px;">
@@ -28,3 +24,7 @@
 		</div>
 	</div>
 </discord>
+
+<style>
+	@import './Discord.css';
+</style>
