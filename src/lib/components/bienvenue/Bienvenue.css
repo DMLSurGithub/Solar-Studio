@@ -1,9 +1,3 @@
-h1 {
-  font-size: 30px;
-  font-family: 'Outfit', 'sans serif';
-  font-weight: bold;
-}
-
 .wizards {
   color: #5553d7;
 }
@@ -13,10 +7,18 @@ h1 {
 }
 
 .presentation {
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+
+.trailer {
+  margin-left: 100px;
 }
 
 p {
-  font-size: 12px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: underline !important;
 }

@@ -5,7 +5,7 @@
 <bienvenue>
   <h1>Bienvenue sur <span class="wizards">Wizards</span> <span class="network">Network</span></h1>
 	<div style="display:flex; flex-direction:row; align-items: center;">
-		<div style="flex:1;">
+		<div class="trailer" style="flex:1;">
 			<video src={trailer} width="640" height="390" controls>
 				<track kind="captions">
 			</video>	  

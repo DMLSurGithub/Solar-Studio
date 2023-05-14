@@ -13,12 +13,6 @@ nav ul {
   padding: 0;
 }
 
-nav ul li {
-  margin: 0px 30px;
-  font-size: 15px;
-  margin-bottom: 3px;
-}
-
 .wiki{
   margin-right: 60px !important; 
 }
@@ -30,12 +24,12 @@ nav ul li {
 nav ul li {
   margin: 0px 30px;
   font-size: 15px;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 }
 
 nav ul li:hover {
   border-bottom: 2px solid #f1bc2c;
-  margin-bottom: -3px;
+  margin-bottom: 5px;
 }
 
 nav a {
@@ -46,7 +40,8 @@ nav a {
 
 nav img {
   width: 40px;
-  margin-bottom: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
 }
   
 .right {
@@ -54,10 +49,10 @@ nav img {
   right: 0;
   background: linear-gradient(45deg, #f1bc2c, #f18f2c);
   font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border-radius: 20px;
-  padding: 10px 20px;
-  margin-right: 10px;
+  padding: 7.5px 15px;
+  margin-right: 20px;
   color: rgb(255, 255, 255);
   font-weight: bold;
   cursor: pointer;
