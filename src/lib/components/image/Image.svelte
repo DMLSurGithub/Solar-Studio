@@ -1,6 +1,6 @@
 <script>
-  import img1 from '../lib/images/img1.png';
-	import serveurLogo from '../lib/images/logo.png';
+  import img1 from '/static/images/img1.png';
+	import serveurLogo from '/static/images/logo.png';
 </script>
 
 <svelte:head>

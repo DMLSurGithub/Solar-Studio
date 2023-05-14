@@ -1,5 +1,5 @@
 <script>
-	import trailer from '../lib/images/trailer.mp4';
+	import trailer from '/static/images/trailer.mp4';
 </script>
 
 <svelte:head>

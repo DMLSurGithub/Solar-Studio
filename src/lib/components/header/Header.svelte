@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import serveurIcone from '../lib/images/icon.png';
+	import serveurIcone from '/static/images/icon.png';
 </script>
 
 <svelte:head>

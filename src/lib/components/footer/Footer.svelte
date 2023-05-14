@@ -1,6 +1,6 @@
 <script>
-	import serveurIcone from '../lib/images/icon.png';
-	import discordIcone from '../lib/images/discord.png'
+	import serveurIcone from '/static/images/icon.png';
+	import discordIcone from '/static/images/discord.png'
 </script>
 
 <svelte:head>
