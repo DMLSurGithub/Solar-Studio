@@ -81,11 +81,29 @@
   		justify-content: center;
 	}
 
+	@media only screen and (max-width: 768px) {
+	.img1 {
+		filter: blur(2px) brightness(75%);
+		width: 10vw;
+		height: 42vw;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.img1 {
+		filter: blur(2px) brightness(75%);
+		width: 200vw;
+		height: 42vw;
+	}
+}
+
+@media only screen and (min-width: 1025px) {
 	.img1 {
 		filter: blur(2px) brightness(75%);
 		width: 100vw;
 		height: 42vw;
 	}
+}
 
 	.center-logo {
 	position: absolute;
