@@ -2,7 +2,7 @@ nav.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgba(255, 255, 255);
   padding-top: 10px;
 }
 
@@ -13,28 +13,28 @@ nav ul {
   padding: 0;
 }
 
-.wiki{
-  margin-right: 60px !important; 
+.services{
+  margin-right: 100px !important; 
 }
 
-.vote{
-  margin-left: 60px !important; 
+.portfolio{
+  margin-left: 100px !important; 
 }
 
 nav ul li {
-  margin: 0px 30px;
+  margin: 0px 50px;
   font-size: 15px;
   margin-bottom: 10px;
 }
 
 nav ul li:hover {
-  border-bottom: 2px solid #f1bc2c;
+  border-bottom: 2px solid #ffa200;
   margin-bottom: 5px;
 }
 
 nav a {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
+  text-decoration: none !important;
+  color: #5865f2;
   font-weight: bold;
 }
 
