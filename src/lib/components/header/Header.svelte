@@ -1,4 +1,4 @@
-<script>
+<script src="Header.js">
 	import { page } from '$app/stores';
 	import serveurIcone from '../../images/icon.png';
 </script>
@@ -14,7 +14,7 @@
       </li>
     </ul>
     <a href="/">
-      <img src={serveurIcone} alt="Serveur" />
+      <img class="icon" src={serveurIcone} alt="Serveur" />
     </a>
     <ul>
       <li class="portfolio" aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
