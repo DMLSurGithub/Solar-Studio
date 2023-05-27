@@ -11,8 +11,6 @@
 
 <Header />
 
-<Footer />
-
 <style>
 	@import '../styles.css';
 </style>
