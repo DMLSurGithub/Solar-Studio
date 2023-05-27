@@ -59,15 +59,24 @@ nav img {
 }
 
 .icon {
-  transition: transform 0.3s;
+  animation-duration: 2.5s; /* Durée de l'animation */
+  animation-name: rotate-icon; /* Nom de l'animation */
+  animation-iteration-count: infinite; /* Nombre d'itérations infini */
+  animation-timing-function: linear; /* Fonction de chronométrage linéaire */
+  transform-origin: center; /* Définit le point de rotation au centre de l'icône */
 }
 
-.icon:hover {
-  transform: rotate(360deg);
+@keyframes rotate-icon {
+  0% {
+    transform: rotate(0deg); /* Position initiale */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotation complète */
+  }
 }
 
 .icon:not(:hover) {
-  transform: rotate(0deg);
+  animation-play-state: paused; /* Met en pause l'animation lorsque la souris n'est pas sur l'icône */
 }
 
   
