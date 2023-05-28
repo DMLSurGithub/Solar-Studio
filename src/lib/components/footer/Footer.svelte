@@ -1,11 +1,11 @@
 <script>
-	import serveurIcone from '../../images/icon.png';
+	import Icone from '../../images/icon.png';
 	import discordIcone from '../../images/discord.png'
 </script>
 
 <footer style="display: flex; justify-content: space-between; align-items: center;">
   <div style="display: flex; align-items: center;">
-    <img src={serveurIcone} alt="Serveur" />
+    <img src={Icone} alt="Icone" />
   </div>
   <div style="display: flex; align-items: center;">
     <p class="bydml" style="text-align: center;">By <a href="https://github.com/DMLSurGithub" target="_blank">DML</a> for Solar Studio</p>

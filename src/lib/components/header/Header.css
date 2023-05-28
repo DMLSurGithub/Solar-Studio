@@ -41,7 +41,8 @@ nav ul li::after {
   transition: visibility 0s linear 0.1s, transform 0.3s;
 }
 
-nav ul li:hover::after {
+nav ul li:hover::after,
+nav ul li.active::after {
   visibility: visible;
   transform: scaleX(1);
 }
@@ -59,37 +60,22 @@ nav img {
 }
 
 .icon {
-  animation-duration: 2.5s; /* Durée de l'animation */
-  animation-name: rotate-icon; /* Nom de l'animation */
-  animation-iteration-count: infinite; /* Nombre d'itérations infini */
-  animation-timing-function: linear; /* Fonction de chronométrage linéaire */
-  transform-origin: center; /* Définit le point de rotation au centre de l'icône */
+  animation-duration: 2.5s;
+  animation-name: rotate-icon;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: center;
 }
 
 @keyframes rotate-icon {
   0% {
-    transform: rotate(0deg); /* Position initiale */
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg); /* Rotation complète */
+    transform: rotate(360deg);
   }
 }
 
 .icon:not(:hover) {
-  animation-play-state: paused; /* Met en pause l'animation lorsque la souris n'est pas sur l'icône */
-}
-
-  
-.right {
-  position: absolute;
-  right: 0;
-  background: linear-gradient(45deg, #f1bc2c, #f18f2c);
-  font-size: 15px;
-  margin-bottom: 15px;
-  border-radius: 20px;
-  padding: 7.5px 15px;
-  margin-right: 20px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  cursor: pointer;
+  animation-play-state: paused;
 }
