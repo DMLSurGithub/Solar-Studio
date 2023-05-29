@@ -5,7 +5,6 @@
   import moon from '../../images/moon.svg'
   import trad from '../../images/trad.svg'
 </script>
-
 <header>
   <nav class="container">
     <a href="/">

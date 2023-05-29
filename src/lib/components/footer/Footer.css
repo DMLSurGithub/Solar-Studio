@@ -3,9 +3,9 @@
 }
 
 footer {
-  padding: 12px;
   background-color: rgb(255, 255, 255);
   position: relative;
+  padding: 0 0;
 }
 
 footer::before {
@@ -31,13 +31,15 @@ footer a:hover {
   text-decoration: underline;
 }
 
-footer img {
+footer img,svg {
   width: 30px;
   margin: 0px 15px
 }
 
-@media (min-width: 480px) {
-  footer {
-    padding: 3px 0;
-  }
+.default-color {
+  fill: #4753d6;
+}
+
+.hover-color {
+  fill: #ffbc00;
 }
