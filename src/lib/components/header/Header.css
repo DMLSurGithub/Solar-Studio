@@ -30,15 +30,15 @@ nav::after {
 }
 
 .services{
-  margin-right: 100px !important; 
+  margin-right: 130px !important; 
 }
 
 .portfolio{
-  margin-left: 100px !important; 
+  margin-left: 130px !important; 
 }
 
 nav ul li {
-  margin: 0px 50px;
+  margin: 0px 70px;
   font-size: 15px;
   margin-bottom: 10px;
   position: relative;
@@ -100,7 +100,7 @@ nav img {
   position: absolute;
   right: 0;
   top: 0;
-  margin-top: 20px;
+  margin-top: 22.5px;
   margin-right: 35px;
   width: 35px;
 }
@@ -109,7 +109,7 @@ nav img {
   position: absolute;
   left: 0;
   top: 0;
-  margin-top: 20px;
+  margin-top: 22.5px;
   margin-left: 30px;
   width: 35px;
 }
