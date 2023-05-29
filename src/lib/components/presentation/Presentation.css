@@ -4,11 +4,31 @@
   margin-top: 50px;
 }
 
+.wallpaper-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+  border-radius: 30px;
+  margin-left: 5rem;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: auto;
+}
+
 .wallpaper {
   justify-content: flex-start;
   width: 800px;
   border-radius: 30px;
-  margin-left: 5rem;
 }
 
 .text-zone {
