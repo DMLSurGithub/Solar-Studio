@@ -1,25 +1,30 @@
 <script>
 	import { page } from '$app/stores';
 	import Icone from '../../images/icon.png';
-  import { onMount } from 'svelte';
+  import sun from '../../images/sun.svg'
+  import moon from '../../images/moon.svg'
+  import trad from '../../images/trad.svg'
 
-  onMount(() => {
-    const menuItems = document.querySelectorAll('nav ul li');
+import { writable } from 'svelte/store';
 
-    menuItems.forEach((item) => {
-      item.addEventListener('mouseenter', () => {
-        item.classList.add('active');
-      });
+const currentPageTheme = writable('clair');
 
-      item.addEventListener('mouseleave', () => {
-        item.classList.remove('active');
-      });
-    });
-  });
+const toggleTheme = () => {
+  if ($currentPageTheme === 'clair') {
+    $currentPageTheme = 'sombre';
+  } else {
+    $currentPageTheme = 'clair';
+  }
+};
 </script>
 
 <header>
   <nav class="container">
+    <a href="/">
+      <svg class="theme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <use href={($currentPageTheme === 'clair') ? sun + '#sun' : moon + '#moon'} />
+      </svg>
+    </a>    
     <ul>
       <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
         <a href="/">ACCUEIL</a>
