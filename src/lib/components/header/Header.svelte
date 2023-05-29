@@ -4,27 +4,13 @@
   import sun from '../../images/sun.svg'
   import moon from '../../images/moon.svg'
   import trad from '../../images/trad.svg'
-
-import { writable } from 'svelte/store';
-
-const currentPageTheme = writable('clair');
-
-const toggleTheme = () => {
-  if ($currentPageTheme === 'clair') {
-    $currentPageTheme = 'sombre';
-  } else {
-    $currentPageTheme = 'clair';
-  }
-};
 </script>
 
 <header>
   <nav class="container">
     <a href="/">
-      <svg class="theme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <use href={($currentPageTheme === 'clair') ? sun + '#sun' : moon + '#moon'} />
-      </svg>
-    </a>    
+      <img class="sun-icon" src={sun} alt="Sun" />
+    </a>   
     <ul>
       <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
         <a href="/">ACCUEIL</a>
@@ -44,6 +30,9 @@ const toggleTheme = () => {
         <a href="/contact">CONTACT US</a>
       </li>
     </ul>
+    <a href="/">
+      <img class="trad-icon" src={trad} alt="Traduction" />
+    </a>    
   </nav>
 </header>
 
