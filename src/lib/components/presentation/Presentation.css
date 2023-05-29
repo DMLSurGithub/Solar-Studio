@@ -1,0 +1,21 @@
+.presentation {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  }
+
+  .wallpaper {
+    justify-content: flex-start;
+    width: 500px;
+    border-radius: 30px;
+    margin-left: 10rem;
+  }
+
+  .text-zone {
+    justify-content: flex-end;
+    width: 500px;
+    height: 330px;
+    border-radius: 30px;
+    margin-right: 10rem;
+    background: rgba(48, 33, 102, 0.3);
+  }

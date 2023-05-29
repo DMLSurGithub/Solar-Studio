@@ -3,7 +3,7 @@
 	import discordIcone from '../../images/discord.png'
 </script>
 
-<footer style="display: flex; justify-content: space-between; align-items: center;">
+<footer class="footer" style="display: flex; justify-content: space-between; align-items: center;">
   <div style="display: flex; align-items: center;">
     <img src={Icone} alt="Icone" />
   </div>

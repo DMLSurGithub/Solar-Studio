@@ -1,5 +1,6 @@
 <script>
 	import Header from '../lib/components/header/Header.svelte';
+	import Presentation from '../lib/components/presentation/Presentation.svelte';
 	import Footer from '../lib/components/footer/Footer.svelte';
 </script>
 
@@ -11,6 +12,10 @@
 </svelte:head>
 
 <Header />
+
+<Presentation />
+
+<Footer />
 
 <style>
 	@import '../styles.css';
