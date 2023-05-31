@@ -1,37 +1,6 @@
 <script>
   import dml from '../../../images/dml.gif';
   import unknown from '../../../images/unknown.png';
-
-  const images = document.querySelectorAll('.circle-image');
-const arrowLeft = document.querySelector('.arrow-left');
-const arrowRight = document.querySelector('.arrow-right');
-
-let currentImage = 0;
-
-function showImage(index) {
-  images.forEach((image, i) => {
-    if (i === index) {
-      image.classList.add('active');
-    } else {
-      image.classList.remove('active');
-    }
-  });
-}
-
-function showNextImage() {
-  currentImage = (currentImage + 1) % images.length;
-  showImage(currentImage);
-}
-
-function showPreviousImage() {
-  currentImage = (currentImage - 1 + images.length) % images.length;
-  showImage(currentImage);
-}
-
-arrowLeft.addEventListener('click', showPreviousImage);
-arrowRight.addEventListener('click', showNextImage);
-
-showImage(currentImage);
 </script>
 
 <equipe class="equipe">
