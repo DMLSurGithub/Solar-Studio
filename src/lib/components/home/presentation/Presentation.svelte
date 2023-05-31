@@ -1,6 +1,6 @@
 <script>
-  import wallpaper from '../../images/wallpaper.jpg'
-  import logo from '../../images/logo.png'
+  import wallpaper from '../../../images/wallpaper.jpg'
+  import logo from '../../../images/logo.png'
 </script>
 
 <presentation class="presentation">

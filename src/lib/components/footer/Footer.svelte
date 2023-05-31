@@ -4,7 +4,7 @@
   let isHovered = false;
 </script>
 
-<footer class="footer" style="display: flex; justify-content: space-between; align-items: center;">
+<footer style="display: flex; justify-content: space-between; align-items: center;">
   <div style="display: flex; align-items: center;">
     <img src={Icone} alt="Icone" />
   </div>
