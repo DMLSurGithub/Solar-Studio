@@ -38,8 +38,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 600px;
-  height: auto;
+}
+
+.solar {
+  color: #ffbc00;
+}
+
+.studio {
+  color: #ffa200;
 }
 
 .txt {

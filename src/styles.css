@@ -4,6 +4,8 @@
 @font-face {
   font-family: "Protos";
   src: url("lib/fonts/Protos.otf") format("truetype");
+	font-family: "Ethnocentric";
+	src: url("lib/fonts/Ethnocentric.otf") format("truetype");
 }
 
 :root {
@@ -46,9 +48,16 @@ h1 {
 }
 
 h2 {
-	font-family: Protos, sans-serif;
-  font-size: 40px;
+	font-family: Ethnocentric, sans-serif;
+  font-size: 35px;
   color: #5865f2;
+	text-align: center;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: Protos, sans-serif;
+  font-size: 90px;
 	text-align: center;
 	font-weight: normal;
 }

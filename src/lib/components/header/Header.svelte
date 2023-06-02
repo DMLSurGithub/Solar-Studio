@@ -26,7 +26,7 @@
         <a href="/infos">INFORMATIONS</a>
       </li>
       <li class="contact" aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
-        <a href="/contact">CONTACT US</a>
+        <a href="/contact">CONTACTER</a>
       </li>
     </ul>
     <a href="/">
