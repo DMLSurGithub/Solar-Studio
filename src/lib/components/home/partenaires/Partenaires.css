@@ -21,11 +21,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 50px;
+  margin: 0 45px;
 }
 
 .logotxt img {
   width: 130px;
+  border-radius: 20px;
 }
 
 .logotxt h4 {
