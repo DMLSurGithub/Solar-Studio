@@ -64,9 +64,10 @@ nav ul li.active::after {
 }
 
 nav a {
+  font-family: Ethnocentric;
   text-decoration: none !important;
+  font-size: 17px;
   color: #5865f2;
-  font-weight: bold;
 }
 
 nav img {
