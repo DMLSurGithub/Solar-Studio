@@ -1,0 +1,39 @@
+.partenaires {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.conf {
+  color: #ffa200;
+  font-size: 40px;
+  font-family: Protos, sans-serif;
+}
+
+.logotxt {
+  display: flex;
+  justify-content: center;
+}
+
+.logotxt > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.logotxt img {
+  width: 130px;
+}
+
+.logotxt h4 {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.partenaires h2 {
+  margin-bottom: 35px;
+  text-align: center;
+}
