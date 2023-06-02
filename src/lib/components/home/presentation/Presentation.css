@@ -12,15 +12,15 @@
   position: relative;
   margin-right: 35px;
   margin-left: auto !important;
-  width: 800px;
-  height: 600px;
+  height: 547px;
+  width: auto;
   border-radius: 30px;
   margin-left: 5rem;
 }
 
 .text-zone {
   width: 500px;
-  height: 600px;
+  height: 100%;
   border-radius: 30px;
   margin-left: 35px;
   margin-right: auto;
@@ -28,7 +28,8 @@
 }
 
 .wallpaper {
-  width: 800px;
+  height: 547px;
+  width: auto;
   border-radius: 30px;
 }
 
@@ -42,6 +43,7 @@
 }
 
 .txt {
+  font-size: 15px;
   margin: 20px;
   text-align: justify;
   color: #5865f2;

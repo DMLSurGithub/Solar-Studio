@@ -29,11 +29,11 @@ nav::after {
   background: linear-gradient(to right, #323db1, #7a84ec, #323db1);
 }
 
-.services{
+.portfolio{
   margin-right: 130px !important; 
 }
 
-.portfolio{
+.infos{
   margin-left: 130px !important; 
 }
 

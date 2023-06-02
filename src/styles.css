@@ -47,8 +47,25 @@ h1 {
 
 h2 {
 	font-family: Protos, sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   color: #5865f2;
 	text-align: center;
 	font-weight: normal;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6e79fc;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #505df0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e5e6f3;
 }

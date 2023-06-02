@@ -11,19 +11,19 @@
       <img class="sun-icon" src={sun} alt="Sun" />
     </a>   
     <ul>
-      <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-        <a href="/">ACCUEIL</a>
-      </li>
       <li class="services" aria-current={$page.url.pathname === '/services' ? 'page' : undefined}>
         <a href="/services">SERVICES</a>
+      </li>
+      <li class="portfolio" aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
+        <a href="/portfolio">PORTFOLIO</a>
       </li>
     </ul>
     <a href="/">
       <img class="icon" src={Icone} alt="Icone" />
     </a>
     <ul>
-      <li class="portfolio" aria-current={$page.url.pathname === '/portfolio' ? 'page' : undefined}>
-        <a href="/portfolio">PORTFOLIO</a>
+      <li class="infos" aria-current={$page.url.pathname === '/infos' ? 'page' : undefined}>
+        <a href="/infos">INFORMATIONS</a>
       </li>
       <li class="contact" aria-current={$page.url.pathname === '/contact' ? 'page' : undefined}>
         <a href="/contact">CONTACT US</a>
