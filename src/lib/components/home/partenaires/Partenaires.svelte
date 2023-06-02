@@ -1,9 +1,4 @@
 <script>
-  import paladium from '../../../images/paladium.jpg';
-  import kranozia from '../../../images/kranozia.jpg';
-  import fuze from '../../../images/fuze.jpg';
-  import siphano from '../../../images/siphano.jpg';
-  import kfaction from '../../../images/kfaction.jpg';
   import unknown from '../../../images/unknown.png'
 </script>
 

@@ -2,6 +2,7 @@
 	import Header from '../lib/components/header/Header.svelte';
 	import Presentation from '../lib/components/home/presentation/Presentation.svelte';
 	import Partenaires from '../lib/components/home/partenaires/Partenaires.svelte';
+	import Reviews from '../lib/components/home/reviews/Reviews.svelte';
 	import Footer from '../lib/components/footer/Footer.svelte';
 </script>
 
@@ -17,6 +18,8 @@
 <Presentation />
 
 <Partenaires />
+
+<Reviews />
 
 <Footer />
 
