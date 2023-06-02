@@ -67,12 +67,12 @@ h3 {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #6e79fc;
+  background-color: #5865f2;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #505df0;
+  background-color: #3c49de;
 }
 
 ::-webkit-scrollbar-track {
