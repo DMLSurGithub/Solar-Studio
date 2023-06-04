@@ -20,12 +20,18 @@
 
 .staff-container img {
   width: 130px;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .staff-container h4 {
   margin-top: 15px;
-  margin-bottom: -15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.staff-container p {
+  margin-top: -25px;
+  font-size: 18px;
   text-align: center;
 }
 
