@@ -1,6 +1,11 @@
 <script>
 	import Header from '../../lib/components/header/Header.svelte';
 	import Footer from '../../lib/components/footer/Footer.svelte';
+
+	import Competances from '../../lib/components/services/competances/Competances.svelte';
+	import Web from '../../lib/components/services/web/Web.svelte';
+	import Bot from '../../lib/components/services/bot/Bot.svelte';
+	import Addon from '../../lib/components/services/addon/Addon.svelte';
 </script>
 
 <svelte:head>
@@ -10,6 +15,14 @@
 </svelte:head>
 
 <Header />
+
+<Competances />
+
+<Web />
+
+<Bot />
+
+<Addon />
 
 <Footer />
 

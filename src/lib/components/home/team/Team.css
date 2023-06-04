@@ -1,0 +1,35 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.staff-container {
+  display: flex;
+  justify-content: center;
+}
+
+.staff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 45px;
+}
+
+.staff-container img {
+  width: 130px;
+  border-radius: 20px;
+}
+
+.staff-container h4 {
+  margin-top: 15px;
+  margin-bottom: -15px;
+  text-align: center;
+}
+
+.partenaires h2 {
+  margin-bottom: 35px;
+  text-align: center;
+}

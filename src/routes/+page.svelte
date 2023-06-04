@@ -1,6 +1,7 @@
 <script>
 	import Header from '../lib/components/header/Header.svelte';
 	import Presentation from '../lib/components/home/presentation/Presentation.svelte';
+	import Team from '../lib/components/home/team/Team.svelte';
 	import Partenaires from '../lib/components/home/partenaires/Partenaires.svelte';
 	import Reviews from '../lib/components/home/reviews/Reviews.svelte';
 	import Footer from '../lib/components/footer/Footer.svelte';
@@ -16,6 +17,8 @@
 <Header />
 
 <Presentation />
+
+<Team />
 
 <Partenaires />
 

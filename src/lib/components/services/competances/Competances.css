@@ -1,0 +1,55 @@
+.all-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.txt-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.competances {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-skills img {
+  width: 200px;
+  margin: 20px;
+}
+
+.svg-skill {
+  background: rgb(243, 242, 247);
+  height: 240px;
+  width: 240px;
+  border-radius: 45px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.txt-skill {
+  background: rgb(243, 242, 247);
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h6 {
+  margin: 20px;
+}

@@ -80,6 +80,13 @@ h5 {
 	font-weight: normal;
 }
 
+h6 {
+	font-family: Ethnocentric, sans-serif;
+  font-size: 20px;
+  color: #ffbc00;
+	font-weight: normal;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
